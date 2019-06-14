@@ -1,0 +1,15 @@
+@import "plugins/_plugins";
+@import "modules/_modules";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}

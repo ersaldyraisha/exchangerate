@@ -1,0 +1,40 @@
+{
+  "name": "resha-boilerplate",
+  "version": "1.0.0",
+  "description": "Custom boilerplate with various build tools + karma unit testing",
+  "scripts": {
+    "build": "npm install --production",
+    "start": "node server.js",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ersaldyraisha/boilerplate.git"
+  },
+  "author": "Andi Pakki",
+  "license": "ISC",
+  "homepage": "https://github.com/ersaldyraisha/boilerplate.git",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "autoprefixer": "^9.5.1",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.1",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-newer": "^1.4.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "jasmine-core": "^3.4.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^2.0.1",
+    "postcss-assets": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

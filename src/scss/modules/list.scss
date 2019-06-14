@@ -1,0 +1,22 @@
+.list {
+  padding: $space/2;
+  margin: 0;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px lightgrey;
+}
+
+.list-item-content {
+  width: 100%;
+  padding: $space/2;
+}
+
+.list-item-action {
+  
+  .button-action {
+    height: 100%;
+  }
+}
